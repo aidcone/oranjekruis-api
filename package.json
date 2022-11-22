@@ -1,0 +1,32 @@
+{
+  "name": "oranjekruis",
+  "version": "1.0.0",
+  "description": "Fetch Oranje Kruis certificates",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rubenuijtdewilligen/oranjekruis-api.git"
+  },
+  "keywords": [
+    "het",
+    "oranje",
+    "kruis",
+    "oranjekruis"
+  ],
+  "author": "Ruben Uijtdewilligen <ruben@uijtdewilligenbv.nl>",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/rubenuijtdewilligen/oranjekruis-api/issues"
+  },
+  "homepage": "https://github.com/rubenuijtdewilligen/oranjekruis-api#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "puppeteer": "^19.2.2",
+    "table-scraper": "^1.0.3",
+    "tabletojson": "^2.0.7"
+  }
+}
