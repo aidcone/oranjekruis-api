@@ -1,4 +1,4 @@
-import puppeteer from 'puppeteer';
+const puppeteer = require('puppeteer');
 
 /**
  * Get all certificates and diplomas
@@ -34,4 +34,4 @@ const getCerts = async (certificateNumber, lastName) => {
   return certificates;
 };
 
-export { getCerts };
+module.exports = { getCerts };
