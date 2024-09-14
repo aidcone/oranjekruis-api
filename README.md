@@ -1,5 +1,8 @@
 # 🔶 Oranje Kruis API
 
+> [!NOTE]  
+> This library is deprecated. Use `GET https://portal.hetoranjekruis.nl/wp-json/orange-cross/v1/check-certificate/?cert_number=12345678&last_name=Smit` instead.
+
 This library uses Puppeteer to fetch Oranje Kruis certificates and diplomas.<br>
 Originally created by [Ruben Uijtdewilligen](https://github.com/rubenuijtdewilligen/) for [EHBO Vereniging Roosendaal](https://ehboroosendaal.nl/).
 
